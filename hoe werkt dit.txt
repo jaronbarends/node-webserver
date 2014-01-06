@@ -1,0 +1,17 @@
+start node
+
+open cmd venster op de locatie die je als root van je webserver wilt hebben
+
+tik in cmd venster
+node [pad naar node-webserver map]/webserver.js
+
+dus bijvoorbeeld vanuit map r&d:
+node ./node-webserver/webserver.js
+
+of vanuit map GitHub
+node ./node-webserver/webserver.js
+
+en dan heb je een webserver op http://localhost:8000/
+die verwijst naar de map waar je je command venster geopend had.
+
+Je sluit de webserver weer door het command venster af te sluiten.
